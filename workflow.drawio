@@ -1,0 +1,121 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="Page-1" id="WizR-iZGCrpnAGHv9hMW">
+    <mxGraphModel dx="1426" dy="841" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=IBM Plex Mono;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="316" width="415" x="30" y="841" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-30" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=IBM Plex Mono;" value="DB" vertex="1">
+          <mxGeometry height="80" width="60" x="103" y="905" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=IBM Plex Mono;" value="&lt;div style=&quot;color: rgb(225, 225, 230); background-color: rgb(25, 22, 34); font-family: &amp;quot;Roboto Mono&amp;quot;, &amp;quot;IBM Plex Mono&amp;quot;, Inconsolata, Consolas, monospace, &amp;quot;Courier New&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;flywaydb&lt;/div&gt;" vertex="1">
+          <mxGeometry height="36" width="96" x="85" y="1061" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-32" edge="1" parent="1" source="rl2KjQ3zTEM7d8zzEmSM-31" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=IBM Plex Mono;" target="rl2KjQ3zTEM7d8zzEmSM-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=IBM Plex Mono;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="275" width="275" x="170" y="464" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-18" edge="1" parent="1" source="rl2KjQ3zTEM7d8zzEmSM-1" style="edgeStyle=none;html=1;fontFamily=IBM Plex Mono;" target="rl2KjQ3zTEM7d8zzEmSM-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-19" connectable="0" parent="rl2KjQ3zTEM7d8zzEmSM-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=IBM Plex Mono;" value="clone" vertex="1">
+          <mxGeometry relative="1" x="-0.1171" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-1" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontFamily=IBM Plex Mono;" value="Service A" vertex="1">
+          <mxGeometry height="80" width="120" x="411" y="591" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-22" edge="1" parent="1" source="rl2KjQ3zTEM7d8zzEmSM-2" style="edgeStyle=none;html=1;fontFamily=IBM Plex Mono;" target="rl2KjQ3zTEM7d8zzEmSM-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-23" connectable="0" parent="rl2KjQ3zTEM7d8zzEmSM-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=IBM Plex Mono;" value="clone" vertex="1">
+          <mxGeometry relative="1" x="-0.0678" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-2" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontFamily=IBM Plex Mono;" value="Service B" vertex="1">
+          <mxGeometry height="80" width="120" x="806" y="591" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-3" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=IBM Plex Mono;" value="DB" vertex="1">
+          <mxGeometry height="80" width="60" x="259" y="511" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=IBM Plex Mono;" value="&lt;div style=&quot;color: rgb(225, 225, 230); background-color: rgb(25, 22, 34); font-family: &amp;quot;Roboto Mono&amp;quot;, &amp;quot;IBM Plex Mono&amp;quot;, Inconsolata, Consolas, monospace, &amp;quot;Courier New&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;flywaydb&lt;/div&gt;" vertex="1">
+          <mxGeometry height="36" width="96" x="241" y="667" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-5" edge="1" parent="1" source="rl2KjQ3zTEM7d8zzEmSM-4" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=IBM Plex Mono;" target="rl2KjQ3zTEM7d8zzEmSM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-8" edge="1" parent="1" source="rl2KjQ3zTEM7d8zzEmSM-7" style="edgeStyle=none;html=1;fontFamily=IBM Plex Mono;startArrow=classicThin;startFill=1;" target="rl2KjQ3zTEM7d8zzEmSM-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-9" edge="1" parent="1" source="rl2KjQ3zTEM7d8zzEmSM-7" style="edgeStyle=none;html=1;fontFamily=IBM Plex Mono;startArrow=openThin;startFill=0;" target="rl2KjQ3zTEM7d8zzEmSM-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=IBM Plex Mono;" value="&lt;div style=&quot;color: rgb(225, 225, 230); background-color: rgb(25, 22, 34); font-family: &amp;quot;Roboto Mono&amp;quot;, &amp;quot;IBM Plex Mono&amp;quot;, Inconsolata, Consolas, monospace, &amp;quot;Courier New&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;openfeign&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="36" width="96" x="627" y="613" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=IBM Plex Mono;dashed=1;dashPattern=8 8;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fillStyle=hatch;" value="TESTING" vertex="1">
+          <mxGeometry height="224" width="1083" x="353" y="889" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-12" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontFamily=IBM Plex Mono;" value="Service A" vertex="1">
+          <mxGeometry height="80" width="120" x="411" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-13" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontFamily=IBM Plex Mono;" value="Mockup of Service B" vertex="1">
+          <mxGeometry height="80" width="120" x="817" y="966" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-14" edge="1" parent="1" source="rl2KjQ3zTEM7d8zzEmSM-16" style="edgeStyle=none;html=1;fontFamily=IBM Plex Mono;startArrow=classicThin;startFill=1;" target="rl2KjQ3zTEM7d8zzEmSM-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-15" edge="1" parent="1" source="rl2KjQ3zTEM7d8zzEmSM-16" style="edgeStyle=none;html=1;fontFamily=IBM Plex Mono;startArrow=openThin;startFill=0;" target="rl2KjQ3zTEM7d8zzEmSM-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=IBM Plex Mono;" value="&lt;div style=&quot;color: rgb(225, 225, 230); background-color: rgb(25, 22, 34); font-family: &amp;quot;Roboto Mono&amp;quot;, &amp;quot;IBM Plex Mono&amp;quot;, Inconsolata, Consolas, monospace, &amp;quot;Courier New&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;openfeign&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="36" width="96" x="628" y="992" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-20" edge="1" parent="1" source="rl2KjQ3zTEM7d8zzEmSM-17" style="edgeStyle=none;html=1;fontFamily=IBM Plex Mono;entryX=0.508;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" target="rl2KjQ3zTEM7d8zzEmSM-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=IBM Plex Mono;" value="&lt;div style=&quot;color: rgb(225, 225, 230); background-color: rgb(25, 22, 34); font-family: &amp;quot;Roboto Mono&amp;quot;, &amp;quot;IBM Plex Mono&amp;quot;, Inconsolata, Consolas, monospace, &amp;quot;Courier New&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;testcontainers&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="36" width="130" x="406" y="782" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-24" edge="1" parent="1" source="rl2KjQ3zTEM7d8zzEmSM-21" style="edgeStyle=none;html=1;fontFamily=IBM Plex Mono;entryX=0;entryY=0;entryDx=50;entryDy=0;entryPerimeter=0;" target="rl2KjQ3zTEM7d8zzEmSM-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=IBM Plex Mono;" value="&lt;div style=&quot;color: rgb(225, 225, 230); background-color: rgb(25, 22, 34); font-family: &amp;quot;Roboto Mono&amp;quot;, &amp;quot;IBM Plex Mono&amp;quot;, Inconsolata, Consolas, monospace, &amp;quot;Courier New&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;testcontainers&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="36" width="130" x="802" y="789" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-28" edge="1" parent="1" source="rl2KjQ3zTEM7d8zzEmSM-25" style="edgeStyle=none;html=1;fontFamily=IBM Plex Mono;" target="rl2KjQ3zTEM7d8zzEmSM-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=IBM Plex Mono;" value="&lt;div style=&quot;color: rgb(225, 225, 230); background-color: rgb(25, 22, 34); font-family: &amp;quot;Roboto Mono&amp;quot;, &amp;quot;IBM Plex Mono&amp;quot;, Inconsolata, Consolas, monospace, &amp;quot;Courier New&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;contract-stub-runner&lt;br/&gt;(wiremock)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="48" width="197" x="1023" y="982" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-27" edge="1" parent="1" source="rl2KjQ3zTEM7d8zzEmSM-26" style="edgeStyle=none;html=1;fontFamily=IBM Plex Mono;" target="rl2KjQ3zTEM7d8zzEmSM-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-26" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontFamily=IBM Plex Mono;" value="Service B" vertex="1">
+          <mxGeometry height="80" width="120" x="1296" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-33" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=IBM Plex Mono;" value="APIs" vertex="1">
+          <mxGeometry height="53" width="94" x="216" y="917" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-35" edge="1" parent="1" source="rl2KjQ3zTEM7d8zzEmSM-34" style="edgeStyle=none;html=1;fontFamily=IBM Plex Mono;" target="rl2KjQ3zTEM7d8zzEmSM-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-36" connectable="0" parent="rl2KjQ3zTEM7d8zzEmSM-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=IBM Plex Mono;" value="call" vertex="1">
+          <mxGeometry relative="1" x="-0.0787" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rl2KjQ3zTEM7d8zzEmSM-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=IBM Plex Mono;" value="&lt;div style=&quot;color: rgb(225, 225, 230); background-color: rgb(25, 22, 34); font-family: &amp;quot;Roboto Mono&amp;quot;, &amp;quot;IBM Plex Mono&amp;quot;, Inconsolata, Consolas, monospace, &amp;quot;Courier New&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;restassured&lt;/div&gt;" vertex="1">
+          <mxGeometry height="36" width="96" x="215" y="1059" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

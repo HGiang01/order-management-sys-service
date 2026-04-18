@@ -1,0 +1,5 @@
+
+# runtime data (do not commit)
+data/mongo/data/
+data/mysql/data/
+*.sock
